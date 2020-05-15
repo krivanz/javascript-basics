@@ -1,4 +1,4 @@
-// summary item
+// Summary item
 const sumArray = (arr) => {
   let sum = 0;
   for (const element of arr) {
@@ -16,3 +16,4 @@ const sumArrayFor = (arr) => {
 };
 
 console.log('Sum:', sumArray([1, 2, 3, 4]));
+console.log('Sum:', sumArrayFor([1, 2, 3, 4]));
